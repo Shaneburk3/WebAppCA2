@@ -1,0 +1,109 @@
+*{
+    margin: 0 auto;
+    
+}
+.header {
+    width: 100%;
+    background-color: #70ABAF;
+    height: 70px;
+    text-align: center;
+}
+.header p {
+    font-size: 30px;
+    padding-top: 15px;
+}
+.container {
+    display: flex;
+}
+.sideBar {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    position: fixed;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 9%;
+    height: 100%;
+    background-color: #70ABAF;
+}
+.sideBar input {
+    margin-bottom: 10px;
+    width: 90%;
+}
+.sideBar button {
+    padding: 2px;
+    width: 70%;
+}
+
+.newRecipe {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.recipeList {
+    width: 70%;
+}
+.recipeList  ul {
+    padding: 5px;
+    list-style-type: none;
+    background-color: #70ABAF;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+    min-height: 50px;
+    border-style: ridge;
+}
+.recipeList  ul p { 
+    font-size: 25px;
+}
+
+
+
+.recipeBox {
+    margin-left:auto;
+    margin-top: 10%;
+    width: 50%;
+    height: 40%;
+    background-color: #F0F7F4;
+    border-style: double;
+}
+table {    
+    padding-left: 10px;
+    border-style: double;
+    height: 100%;
+    width: 100%;
+}
+table label {
+    text-align: left;
+    margin: auto;
+    font-size: 16px;
+    font-weight: bolder;
+}
+table th {
+    font-size: 20px;
+    text-align: center;
+}
+
+table button {
+    border-style: groove;
+    width: 45%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    padding: 3px;
+    margin: 3px;
+}
+table button:hover {
+    background-color: rgb(67, 35, 128);
+    color: white;
+}
+table input {
+    padding: 5px;
+    margin-top: 1%;
+    width: 40%;
+}
+
+textArea {
+    width: 80%;
+    resize: none;
+}
